@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:deepwiki.com)",
+      "Bash(go build:*)",
+      "Bash(go test:*)",
+      "Bash(./gh.exe --version)",
+      "Bash(./gh.exe --help)",
+      "Bash(./gh.exe unknown-cmd:*)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(go mod:*)",
+      "Bash(go vet:*)",
+      "Bash(go get:*)",
+      "Bash(./bin/gh.exe auth:*)",
+      "Bash(go work:*)",
+      "Bash(grep -v \"\\\\.exe$\")"
+    ]
+  }
+}

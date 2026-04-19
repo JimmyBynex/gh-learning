@@ -1,0 +1,12 @@
+# Go binaries
+  *.exe
+  *.exe~
+  bin/
+  scratch/bin
+
+  # IDE
+  scratch/.idea
+
+  # OS
+  .DS_Store
+  Thumbs.db
