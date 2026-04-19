@@ -1,0 +1,16 @@
+# Go binaries
+  *.exe
+  *.exe~
+  bin/
+
+  # Go build cache / test cache
+  *.test
+  *.out
+
+  # IDE
+  .idea/
+  .vscode/
+
+  # OS
+  .DS_Store
+  Thumbs.db
